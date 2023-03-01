@@ -14,7 +14,9 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         
-        let rootViewController = DownloadViewController()
+        let networkManager = NetworkManager()
+        let imageManager = ImageManager(networkManager: networkManager)
+        let rootViewController = DownloadViewController(imageManager: imageManager)
         
         window.rootViewController = rootViewController
         window.makeKeyAndVisible()
