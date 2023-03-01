@@ -13,6 +13,7 @@
 		E3CC9E0929AE3AB50092CDD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CC9E0829AE3AB50092CDD2 /* Assets.xcassets */; };
 		E3CC9E0C29AE3AB50092CDD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CC9E0A29AE3AB50092CDD2 /* LaunchScreen.storyboard */; };
 		E3CC9E1429AE430C0092CDD2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC9E1329AE430C0092CDD2 /* NetworkManager.swift */; };
+		E3CC9E2B29AF9B7C0092CDD2 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC9E2A29AF9B7C0092CDD2 /* ImageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E3CC9E0B29AE3AB50092CDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3CC9E0D29AE3AB50092CDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3CC9E1329AE430C0092CDD2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E3CC9E2A29AF9B7C0092CDD2 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E3CC9DFF29AE3AB40092CDD2 /* AppDelegate.swift */,
 				E3CC9E0129AE3AB40092CDD2 /* SceneDelegate.swift */,
 				E3CC9E0329AE3AB40092CDD2 /* DownloadViewController.swift */,
+				E3CC9E2A29AF9B7C0092CDD2 /* ImageManager.swift */,
 				E3CC9E1329AE430C0092CDD2 /* NetworkManager.swift */,
 				E3CC9E0829AE3AB50092CDD2 /* Assets.xcassets */,
 				E3CC9E0A29AE3AB50092CDD2 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3CC9E1429AE430C0092CDD2 /* NetworkManager.swift in Sources */,
+				E3CC9E2B29AF9B7C0092CDD2 /* ImageManager.swift in Sources */,
 				E3CC9E0429AE3AB40092CDD2 /* DownloadViewController.swift in Sources */,
 				E3CC9E0029AE3AB40092CDD2 /* AppDelegate.swift in Sources */,
 				E3CC9E0229AE3AB40092CDD2 /* SceneDelegate.swift in Sources */,
