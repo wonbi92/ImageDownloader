@@ -7,6 +7,18 @@
 
 import UIKit
 
+enum ImageLoadViewFactory {
+    static func makeImageLoadView(multiplier: Int) -> [ImageLoadView] {
+        var result: [ImageLoadView] = []
+        
+        for _ in 0..<multiplier {
+            result.append(ImageLoadView())
+        }
+        
+        return result
+    }
+}
+
 final class ImageLoadView: UIView {
     private let imageView: UIImageView = {
         let imageView = UIImageView()
