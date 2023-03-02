@@ -7,8 +7,19 @@
 
 import Foundation
 
-enum FetchError: Error {
-    case badID, badData
+enum ImageError: LocalizedError {
+    case badID, badData, badImage
+    
+    var localizedDescription: String {
+        switch self {
+        case .badID:
+            return "이미지의 ID가 잘못되어있습니다."
+        case .badData:
+            return "잘못된 Data입니다."
+        case .badImage:
+            return "섬네일 변환에 실패하였습니다."
+        }
+    }
 }
 
 final class NetworkManager {

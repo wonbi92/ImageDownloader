@@ -7,10 +7,6 @@
 
 import UIKit
 
-enum ImageError: Error {
-    case badData, badImage
-}
-
 final class ImageManager {
     private let networkManager: NetworkManager
     
