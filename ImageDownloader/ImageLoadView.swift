@@ -65,6 +65,10 @@ final class ImageLoadView: UIView {
         button.addAction(action, for: .touchUpInside)
     }
     
+    func configureImage(_ image: UIImage?) {
+        imageView.image = image
+    }
+    
     private func configureView() {
         [imageView, progressView, button].forEach(stackView.addArrangedSubview(_:))
             
