@@ -59,12 +59,12 @@ final class NetworkManager {
             
             if let statusCode = (response as? HTTPURLResponse)?.statusCode,
                !(200...299).contains(statusCode) {
-                completion(.failure(FetchError.badID))
+                completion(.failure(ImageError.badID))
                 return
             }
             
             guard let data = data else {
-                completion(.failure(FetchError.badData))
+                completion(.failure(ImageError.badData))
                 return
             }
             
